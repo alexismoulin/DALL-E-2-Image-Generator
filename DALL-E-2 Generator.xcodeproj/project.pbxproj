@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E02E0A529882F510045FFF0 /* InputPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02E0A429882F510045FFF0 /* InputPanelView.swift */; };
+		5E02E0A8298834FD0045FFF0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02E0A7298834FD0045FFF0 /* ViewModel.swift */; };
 		5E329A1629881D8F00447691 /* DALL_E_2_GeneratorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E329A1529881D8F00447691 /* DALL_E_2_GeneratorApp.swift */; };
 		5E329A1829881D8F00447691 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E329A1729881D8F00447691 /* ContentView.swift */; };
 		5E329A1A29881D9000447691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E329A1929881D9000447691 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E02E0A429882F510045FFF0 /* InputPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputPanelView.swift; sourceTree = "<group>"; };
+		5E02E0A7298834FD0045FFF0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5E329A1229881D8F00447691 /* DALL-E-2 Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DALL-E-2 Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E329A1529881D8F00447691 /* DALL_E_2_GeneratorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DALL_E_2_GeneratorApp.swift; sourceTree = "<group>"; };
 		5E329A1729881D8F00447691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +39,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E02E0A6298832E70045FFF0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5E02E0A429882F510045FFF0 /* InputPanelView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5E02E0A9298835070045FFF0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5E02E0A7298834FD0045FFF0 /* ViewModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		5E329A0929881D8F00447691 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +77,8 @@
 				5E329A3D298820D500447691 /* Config.xcconfig */,
 				5E329A1529881D8F00447691 /* DALL_E_2_GeneratorApp.swift */,
 				5E329A1729881D8F00447691 /* ContentView.swift */,
+				5E02E0A9298835070045FFF0 /* Data */,
+				5E02E0A6298832E70045FFF0 /* Components */,
 				5E329A3E298826FC00447691 /* Networking */,
 				5E329A1929881D9000447691 /* Assets.xcassets */,
 				5E329A1B29881D9000447691 /* Preview Content */,
@@ -150,7 +172,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E02E0A8298834FD0045FFF0 /* ViewModel.swift in Sources */,
 				5E329A1829881D8F00447691 /* ContentView.swift in Sources */,
+				5E02E0A529882F510045FFF0 /* InputPanelView.swift in Sources */,
 				5E329A402988272100447691 /* NetworkRequest.swift in Sources */,
 				5E329A1629881D8F00447691 /* DALL_E_2_GeneratorApp.swift in Sources */,
 			);
