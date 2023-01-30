@@ -19,6 +19,7 @@
 		5E329A1729881D8F00447691 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E329A1929881D9000447691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E329A1C29881D9000447691 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E329A3D298820D500447691 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 			children = (
 				5E329A1529881D8F00447691 /* DALL_E_2_GeneratorApp.swift */,
 				5E329A1729881D8F00447691 /* ContentView.swift */,
+				5E329A3D298820D500447691 /* Config.xcconfig */,
 				5E329A1929881D9000447691 /* Assets.xcassets */,
 				5E329A1B29881D9000447691 /* Preview Content */,
 			);

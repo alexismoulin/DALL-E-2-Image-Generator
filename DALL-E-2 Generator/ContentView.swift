@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  DALL-E-2 Generator
-//
-//  Created by Alexis Moulin on 30/01/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
