@@ -14,6 +14,7 @@
 		5E329A1A29881D9000447691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E329A1929881D9000447691 /* Assets.xcassets */; };
 		5E329A1D29881D9000447691 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E329A1C29881D9000447691 /* Preview Assets.xcassets */; };
 		5E329A402988272100447691 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E329A3F2988272100447691 /* NetworkRequest.swift */; };
+		5E814D3029E2B71100C6D55A /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E814D2F29E2B71100C6D55A /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5E329A1C29881D9000447691 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E329A3D298820D500447691 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		5E329A3F2988272100447691 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		5E814D2F29E2B71100C6D55A /* ControlImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		5E02E0A6298832E70045FFF0 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				5E814D2F29E2B71100C6D55A /* ControlImageView.swift */,
 				5E02E0A429882F510045FFF0 /* InputPanelView.swift */,
 			);
 			path = Components;
@@ -174,6 +177,7 @@
 			files = (
 				5E02E0A8298834FD0045FFF0 /* ViewModel.swift in Sources */,
 				5E329A1829881D8F00447691 /* ContentView.swift in Sources */,
+				5E814D3029E2B71100C6D55A /* ControlImageView.swift in Sources */,
 				5E02E0A529882F510045FFF0 /* InputPanelView.swift in Sources */,
 				5E329A402988272100447691 /* NetworkRequest.swift in Sources */,
 				5E329A1629881D8F00447691 /* DALL_E_2_GeneratorApp.swift in Sources */,
@@ -234,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -316,7 +320,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +354,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,11 +7,13 @@ struct InputPanelView: View {
     var body: some View {
             // MARK: - INFO PANEL
             VStack {
-                TextField("Test", text: $viewModel.prompt)
+                TextField("Describe the image you want to be generated", text: $viewModel.prompt, axis: .vertical)
+                    .lineLimit(2...)
                     .textFieldStyle(.roundedBorder)
                 Button("Post") {
                     Task {
                         do {
+                            viewModel.responseURL = nil
                             viewModel.displayImage = true
                             viewModel.responseURL = await URL(string: try NetworkRequest.postRequest(prompt: viewModel.prompt))
                         } catch {
